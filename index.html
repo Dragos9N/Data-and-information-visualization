@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="index.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Festive&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Akronim&family=Festive&display=swap">
+    <link href="https://fonts.googleapis.com/css2?family=Moon+Dance&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100&family=Moon+Dance&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <h1 id="titlu">Aplicatie pentru vizualizarea datelor</h1>
+    <div id=diviziune_histograma>
+        <div id="tari">
+            <ol id="lista1">
+                <li id="Austria">Austria</li>
+                <li id="Belgia">Belgia</li>
+                <li id="Bulgaria">Bulgaria</li>
+                <li id="Cipru">Cipru</li>
+                <li id="Cehia">Cehia</li>
+                <li id="Germania">Germania</li>
+                <li id="Danemarca">Danemarca</li>
+                <li id="Estonia">Estonia</li>
+                <li id="Grecia">Grecia</li>
+            </ol>
+            <ol id="lista2">
+                <li id="Spania">Spania</li>
+                <li id="Finlanda">Finlanda</li>
+                <li id="Franta">Franta</li>
+                <li id="Croatia">Croatia</li>
+                <li id="Ungaria">Ungaria</li>
+                <li id="Irlanda">Irlanda</li>
+                <li id="Italia">Italia</li>
+                <li id="Lituania">Lituania</li>
+                <li id="Luxemburg">Luxemburg</li>
+            </ol>
+            <ol id="lista3">
+                <li id="Letonia">Letonia</li>
+                <li id="Malta">Malta</li>
+                <li id="Olanda">Olanda</li>
+                <li id="Polonia">Polonia</li>
+                <li id="Portugalia">Portugalia</li>
+                <li id="Romania">Romania</li>
+                <li id="Suedia">Suedia</li>
+                <li id="Slovenia">Slovenia</li>
+                <li id="Slovacia">Slovacia</li>
+            </ol>
+        </div>
+        <h2 id="speranta_viata">Speranța de viață</h2>
+        <section id="tooltip">
+            <svg id="svg" width="490" height="260">
+            </svg>
+            <section id="tooltipdiv">
+                <div id="an2006" title="no value">2006</div>
+                <div id="an2007" title="no value">2007</div>
+                <div id="an2008" title="no value">2008</div>
+                <div id="an2009" title="no value">2009</div>
+                <section id="tooltipdiv3">
+                    <div id="an2010" title="no value">2010</div>
+                    <div id="an2011" title="no value">2011</div>
+                    <div id="an2012" title="no value">2012</div>
+                    <div id="an2013" title="no value">2013</div>
+                    <div id="an2014" title="no value">2014</div>
+                    <div id="an2015" title="no value">2015</div>
+                    <section id="tooltipdiv4">
+                        <div id="an2016" title="no value">2016</div>
+                        <div id="an2017" title="no value">2017</div>
+                        <div id="an2018" title="no value">2018</div>
+                        <div id="an2019" title="no value">2019</div>
+                        <div id="an2020" title="no value">2020</div>
+                    </section>
+                </section>
+            </section>
+        </section>
+    </div>
+    <div id=diviziune_bubblechart>
+        <div id="ani">
+            <ul id="lista4">
+                <li id="an2006_t">2006</li>
+                <li id="an2007_t">2007</li>
+                <li id="an2008_t">2008</li>
+                <li id="an2009_t">2009</li>
+                <li id="an2010_t">2010</li>
+                <li id="an2011_t">2011</li>
+                <li id="an2012_t">2012</li>
+                <li id="an2013_t">2013</li>
+                <li id="an2014_t">2014</li>
+                <li id="an2015_t">2015</li>
+                <li id="an2016_t">2016</li>
+                <li id="an2017_t">2017</li>
+                <li id="an2018_t">2018</li>
+                <li id="an2019_t">2019</li>
+                <li id="an2020_t">2020</li>
+            </ul>
+        </div>
+        <div id="decor">
+            <h1>Populație</h1>
+            <h1>PIB pe locuitor</h1>
+            <h1>Speranța de viață</h1>
+        </div>
+        <canvas id="bubbleChartAn" width="490" height="260"></canvas>
+        <canvas id="bubbleChartAnimation" width="490" height="260"></canvas>
+        <button id="animatie">Lansare Animatie</button>
+    </div>
+    <article id="tabel"></article>
+</body>
+
+</html>
